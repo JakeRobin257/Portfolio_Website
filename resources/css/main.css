@@ -9,3 +9,12 @@ h1 {
 p {
     font-family: pacifico, 'Brush Script MT';
 }
+
+button {
+    background-color: teal;
+    box-shadow: 5px 5px;
+}
+
+button:hover {
+    color: white;
+}
