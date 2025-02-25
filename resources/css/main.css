@@ -1,5 +1,6 @@
 body {
-    background-color: cornflowerblue;
+    background-color: rgb(183, 189, 199);
+    margin: 0px;
 }
 
 h1 {
@@ -7,6 +8,16 @@ h1 {
 }
 
 p {
+    font-family: montserrat, 'Brush Script MT';
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(76, 83, 211);
+}
+
+h2 {
     font-family: montserrat, 'Brush Script MT';
 }
 
@@ -17,4 +28,60 @@ button {
 
 button:hover {
     color: white;
+}
+
+header h1, header p {
+    text-align: center; 
+    margin: 20px;
+}
+
+header {
+    background-color: rgb(76, 83, 211);
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    height: 130px;
+
+    margin-top: 0px;
+}
+
+.breadcrumb {
+    list-style: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li::before {
+    content: "/";
+    margin: 0px 5px 0px 3px;
+}
+
+nav {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+main {
+    position: relative;
+    top: 200px;
+    left: 20px;
+}
+
+.coventry_uni_logo {
+    width: 175px;
+    height: 110px;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.about {
+    float: left;
+    width: 400px;
 }
